@@ -1,0 +1,11 @@
+# Requirements.txt for SDmaskNet#
+
+numpy
+argparse
+imgutils
+opencv-python
+os-sys
+matplotlib
+sklearn
+
+# Install tensorflow == 1.14 seperately #
