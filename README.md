@@ -27,6 +27,13 @@ dataset
 
 Before running the code, ensure that you download the yolo weights file from the google drive link provided in the .txt file in the yolo-coco folder.
 
+Install the necessary requirements:
+
+pip install -r requirements.txt
+
+(The network was trained on a tensorflow 1.14 system with windows OS)
+Tensorflow is not included in the requirements file.
+
 To train the mask detector network run:
 
 python train_mask_detector --dataset dataset
